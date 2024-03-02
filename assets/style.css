@@ -4,9 +4,9 @@
     border-color: black;
 }
 
-/*.top {
-    display: flex;
-}*/
+.top {
+    position: relative;
+}
 
 #topleft {
     background-color: aqua;
@@ -33,9 +33,9 @@
     border: 2px solid black;
 }
 
-/*.middle {
-    display: flex;
-}*/
+.middle {
+    position: relative;
+}
 
 #midleft {
     background-color: aqua;
@@ -61,9 +61,9 @@
     border: 2px solid black;
 }
 
-/*.bottom {
-    display: flex;
-}*/
+.bottom {
+    position: relative;
+}
 
 #bottomleft {
     background-color: aqua;

@@ -1,35 +1,61 @@
+var topLeft = document.getElementById("topleft");
+var topLeftClick = document.getElementById("topleft").click;
+var topMid = document.getElementById("topmid");
+var topMidClick = document.getElementById("topmid").click;
+var topRight = document.getElementById("topright");
+var topRightClick = document.getElementById("topright").click;
+var midLeft = document.getElementById("midleft");
+var midMid = document.getElementById("midmid");
+var midRight = document.getElementById("midright");
+var bottomLeft = document.getElementById("bottomleft");
+var bottomMid = document.getElementById("bottommid");
+var bottomRight = document.getElementById("bottomright");
+
+function playGame() {
+    if (topLeft.click && topMid.click && topRight.click) {
+        console.log("You Win!")
+    } else {
+        return;
+    };
+};
+
+
 function clickTopLeft() {
-    document.getElementById("topleft").style.backgroundColor = "red";
+    topLeft.style.backgroundColor = "red";
+    playGame()
 };
 
 function clickTopMid() {
-    document.getElementById("topmid").style.backgroundColor = "red";
+    topMid.style.backgroundColor = "red";
+    playGame()
 };
 
 function clickTopRight() {
-    document.getElementById("topright").style.backgroundColor = "red";
+    topRight.style.backgroundColor = "red";
+    playGame()
 };
 
 function clickMidLeft() {
-    document.getElementById("midleft").style.backgroundColor = "red";
+    midLeft.style.backgroundColor = "red";
 };
 
 function clickMidMid() {
-    document.getElementById("midmid").style.backgroundColor = "red";
+    midMid.style.backgroundColor = "red";
 };
 
 function clickMidRight() {
-    document.getElementById("midright").style.backgroundColor = "red";
+    midRight.style.backgroundColor = "red";
 };
 
 function clickBottomLeft() {
-    document.getElementById("bottomleft").style.backgroundColor = "red";
+    bottomLeft.style.backgroundColor = "red";
 };
 
 function clickBottomMid() {
-    document.getElementById("bottommid").style.backgroundColor = "red";
+    bottomMid.style.backgroundColor = "red";
 };
 
 function clickBottomRight() {
-    document.getElementById("bottomright").style.backgroundColor = "red";
+    bottomRight.style.backgroundColor = "red";
 };
+
