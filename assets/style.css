@@ -1,0 +1,91 @@
+.tile {
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+/*.top {
+    display: flex;
+}*/
+
+.topleft {
+    background-color: aqua;
+    width: 25%;
+    float: left;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.topmid {
+    background-color: aqua;
+    width: 25%;
+    float: left;
+    padding: 20px;
+    border: 2px solid black;
+    
+}
+
+.topright {
+    background-color: aqua;
+    width: 25%;
+    float: left;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+/*.middle {
+    display: flex;
+}*/
+
+.midleft {
+    background-color: aqua;
+    width: 25%;
+    float: left;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.midmid {
+    background-color: aqua;
+    width: 25%;
+    float: left;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.midright {
+    background-color: aqua;
+    width: 25%;
+    float: left;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+/*.bottom {
+    display: flex;
+}*/
+
+.bottomleft {
+    background-color: aqua;
+    width: 25%;
+    float: left;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.bottommid {
+    background-color: aqua;
+    width: 25%;
+    float: left;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.bottomright {
+    background-color: aqua;
+    width: 25%;
+    float: left;
+    padding: 20px;
+    border: 2px solid black;
+}
+
