@@ -8,7 +8,7 @@
     display: flex;
 }*/
 
-.topleft {
+#topleft {
     background-color: aqua;
     width: 25%;
     float: left;
@@ -16,7 +16,7 @@
     border: 2px solid black;
 }
 
-.topmid {
+#topmid {
     background-color: aqua;
     width: 25%;
     float: left;
@@ -25,7 +25,7 @@
     
 }
 
-.topright {
+#topright {
     background-color: aqua;
     width: 25%;
     float: left;
@@ -37,7 +37,7 @@
     display: flex;
 }*/
 
-.midleft {
+#midleft {
     background-color: aqua;
     width: 25%;
     float: left;
@@ -45,7 +45,7 @@
     border: 2px solid black;
 }
 
-.midmid {
+#midmid {
     background-color: aqua;
     width: 25%;
     float: left;
@@ -53,7 +53,7 @@
     border: 2px solid black;
 }
 
-.midright {
+#midright {
     background-color: aqua;
     width: 25%;
     float: left;
@@ -65,7 +65,7 @@
     display: flex;
 }*/
 
-.bottomleft {
+#bottomleft {
     background-color: aqua;
     width: 25%;
     float: left;
@@ -73,7 +73,7 @@
     border: 2px solid black;
 }
 
-.bottommid {
+#bottommid {
     background-color: aqua;
     width: 25%;
     float: left;
@@ -81,7 +81,7 @@
     border: 2px solid black;
 }
 
-.bottomright {
+#bottomright {
     background-color: aqua;
     width: 25%;
     float: left;
