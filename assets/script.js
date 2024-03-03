@@ -11,18 +11,22 @@ var bottomLeft = document.getElementById("bottomleft");
 var bottomMid = document.getElementById("bottommid");
 var bottomRight = document.getElementById("bottomright");
 
+
+
 function playGame() {
-    if (topLeft.click && topMid.click && topRight.click) {
-        console.log("You Win!")
-    } else {
-        return;
-    };
+    console.log("it works");
 };
+
+
+
+
+
+
 
 
 function clickTopLeft() {
     topLeft.style.backgroundColor = "red";
-    playGame()
+    playGame();
 };
 
 function clickTopMid() {
@@ -58,4 +62,3 @@ function clickBottomMid() {
 function clickBottomRight() {
     bottomRight.style.backgroundColor = "red";
 };
-
